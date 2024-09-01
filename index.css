@@ -1,0 +1,48 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(105deg,rgb(231, 120, 231),rgb(63, 1, 63))
+}
+h1{
+    display: flex;
+    align-items: center;
+}
+.container{
+    margin: 20px 60px;
+}
+.container h1 img{
+    height: 50px;
+    border-radius: 30px;
+    padding: 10px;
+}
+.container button{
+    padding: 10px;
+    margin: 10px 0px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.inputbox {
+    width: 300px;
+    background-color: white;
+    border-radius: 10px;
+    min-height: 80px;
+    padding: 5px 10px;
+    outline: none;
+    margin-top: 10px;
+
+}
+p img{
+    width: 20px;
+    border-radius: 20px;
+    position: fixed;
+    left: 335px;
+    color: white;
+}
+p img:hover{
+    cursor: pointer;
+}
